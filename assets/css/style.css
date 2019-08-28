@@ -291,7 +291,7 @@ ul.nav li ul.dropdown-menu {
 
 .fixed {
 	position: fixed;
-	background:#2a2a2a;
+	background:#222;
 	border:none;
 	top:0;
 	left: 0;
@@ -348,12 +348,12 @@ section#intro i  {
 }
 
 section#intro h1  {
-	color:#fff;
+	color:#222;
 	font-size:64px;
 	font-weight:700;
 }
 section#intro h2  {
-	color:#ddd;
+	color:#220;
 	font-size:24px;
 }
 

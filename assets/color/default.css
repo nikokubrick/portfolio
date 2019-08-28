@@ -10,7 +10,7 @@ a {
 }
 
 a:hover {
-	color: #2984c0;
+	color: #c0c0c0;
 }
 
 /* --- button theme --- */
@@ -63,7 +63,7 @@ a:hover {
 
 
 ul.nav li.current {
-  background: #3498db;
+  background: #010101;
 }
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus,
