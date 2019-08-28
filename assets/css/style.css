@@ -1,9 +1,4 @@
-/*
-    Theme Name: Vesperr
-    Theme URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-*/
+
 
 @import url('font-awesome.css');
 /* ==== overwrite bootstrap standard ==== */
@@ -755,11 +750,11 @@ section#services {
 }
 
 #services .headline h3 {
-	color:#fff;
+	color:#000;
 }
 
 #services .section-intro p {
-	color:#f8f8f8;
+	color:#888;
 }
 
 .service-intro{
@@ -833,7 +828,7 @@ ul.filter li.active a{
 	position:relative;
 	padding:0;
 	overflow:hidden;
-	border:nonw;
+	border:none;
 }
 
 .portfolio-area .image-wrapp img {
