@@ -9,6 +9,9 @@ body{
   background: #ffff;
   margin-bottom: 60px;
 }
+
+
+
 .middle{
   position: absolute;
   top: 50%;
@@ -40,13 +43,14 @@ body{
   transform: perspective(600px) rotateY(0deg);
 }
 .back{
-  background: #ffff;
-  transform: perspective(600px) rotateY(180deg);
+    transform: perspective(600px) rotateY(180deg);
 }
 .back-content{
   color: #242021;
   text-align: center;
   width: 100%;
+  text-shadow: #fff;
+
 }
 .sm{
   margin: 20px 0;
