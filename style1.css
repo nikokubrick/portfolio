@@ -52,6 +52,11 @@ body{
   text-shadow: #fff;
 
 }
+
+.logochico {
+    position: absolute;
+}
+
 .sm{
   margin: 20px 0;
 }
