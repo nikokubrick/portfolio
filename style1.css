@@ -55,6 +55,14 @@ body{
 
 .logochico {
     position: absolute;
+    padding: 5px;
+    margin: auto;
+}
+.logochico a{
+    display: inline-flex;
+}
+.logochico a:hover{
+    color: white;
 }
 
 .sm{
