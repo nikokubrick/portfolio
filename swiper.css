@@ -1,14 +1,4 @@
-/**
- * Swiper 4.5.0
- * Most modern mobile touch slider and framework with hardware accelerated transitions
- * http://www.idangero.us/swiper/
- *
- * Copyright 2014-2019 Vladimir Kharlampidi
- *
- * Released under the MIT License
- *
- * Released on: February 22, 2019
- */
+
 .swiper-container {
   margin: 0 auto;
   position: relative;
@@ -16,7 +6,7 @@
   list-style: none;
   padding: 0;
 
-  /* Fix of Webkit flickering */
+
   z-index: 1;
 }
 .swiper-container-no-flexbox .swiper-slide {
@@ -169,6 +159,7 @@
   background-size: 27px 44px;
   background-position: center;
   background-repeat: no-repeat;
+    color: black;
 }
 .swiper-button-prev.swiper-button-disabled,
 .swiper-button-next.swiper-button-disabled {
@@ -292,7 +283,7 @@ button.swiper-pagination-bullet {
 }
 .swiper-pagination-bullet-active {
   opacity: 1;
-  background: #007aff;
+  background: #0c0c0c;
 }
 .swiper-container-vertical > .swiper-pagination-bullets {
   right: 10px;
@@ -313,11 +304,11 @@ button.swiper-pagination-bullet {
 }
 .swiper-container-vertical > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
   display: inline-block;
-  -webkit-transition: 200ms top, 200ms -webkit-transform;
-  transition: 200ms top, 200ms -webkit-transform;
-  -o-transition: 200ms transform, 200ms top;
-  transition: 200ms transform, 200ms top;
-  transition: 200ms transform, 200ms top, 200ms -webkit-transform;
+  -webkit-transition: 300ms top, 300ms -webkit-transform;
+  transition: 300ms top, 200ms -webkit-transform;
+  -o-transition: 300ms transform, 300ms top;
+  transition: 300ms transform, 300ms top;
+  transition: 300ms transform, 300ms top, 300ms -webkit-transform;
 }
 .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 0 4px;
@@ -330,18 +321,18 @@ button.swiper-pagination-bullet {
   white-space: nowrap;
 }
 .swiper-container-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
-  -webkit-transition: 200ms left, 200ms -webkit-transform;
-  transition: 200ms left, 200ms -webkit-transform;
-  -o-transition: 200ms transform, 200ms left;
-  transition: 200ms transform, 200ms left;
-  transition: 200ms transform, 200ms left, 200ms -webkit-transform;
+  -webkit-transition: 300ms left, 300ms -webkit-transform;
+  transition: 300ms left, 300ms -webkit-transform;
+  -o-transition: 300ms transform, 300ms left;
+  transition: 300ms transform, 300ms left;
+  transition: 300ms transform, 300ms left, 300ms -webkit-transform;
 }
 .swiper-container-horizontal.swiper-container-rtl > .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
-  -webkit-transition: 200ms right, 200ms -webkit-transform;
-  transition: 200ms right, 200ms -webkit-transform;
-  -o-transition: 200ms transform, 200ms right;
-  transition: 200ms transform, 200ms right;
-  transition: 200ms transform, 200ms right, 200ms -webkit-transform;
+  -webkit-transition: 300ms right, 300ms -webkit-transform;
+  transition: 300ms right, 300ms -webkit-transform;
+  -o-transition: 300ms transform, 300ms right;
+  transition: 300ms transform, 300ms right;
+  transition: 300ms transform, 300ms right, 300ms -webkit-transform;
 }
 /* Progress */
 .swiper-pagination-progressbar {
@@ -349,7 +340,7 @@ button.swiper-pagination-bullet {
   position: absolute;
 }
 .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
-  background: #007aff;
+  background: #0c0c0c;
   position: absolute;
   left: 0;
   top: 0;
