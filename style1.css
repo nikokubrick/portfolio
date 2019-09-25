@@ -65,6 +65,27 @@ body{
     color: white;
 }
 
+.sms{
+  margin: 40px 36%;
+    position: absolute;
+
+}
+.sms a{
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  color: #242021;
+  font-size: 30px;
+  transition: 0.4s;
+  border-radius: 50%
+}
+.sms a:hover{
+  background: #242021;
+  color: white;
+}
+
 .sm{
   margin: 20px 0;
 }
@@ -83,6 +104,7 @@ body{
   background: #242021;
   color: white;
 }
+
 .card:hover > .front{
   transform: perspective(600px) rotateY(-180deg);
 }
