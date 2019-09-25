@@ -24,6 +24,12 @@ body{
   height: 480px;
 }
 
+.textolink {
+    text-decoration: none;
+    text-align: right;
+
+}
+
 
 .front,.back{
   width: 100%;
