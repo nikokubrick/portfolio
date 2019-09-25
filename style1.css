@@ -27,6 +27,9 @@ body{
 .textolink {
     text-decoration: none;
     text-align: right;
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+    padding: 5px;
 
 }
 
