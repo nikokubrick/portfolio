@@ -25,15 +25,22 @@ body{
 }
 
 .textolink {
-    text-decoration: none;
-    font-size: 10px;
+
     text-align: right;
+    font-size: 10px;
     font-family: 'Fjalla One', sans-serif;
     color: black;
     padding: 5px;
     margin: 10px;
+    text-decoration: none;
 
 
+
+
+}
+
+.textolink a{
+    text-decoration-color: black;
 }
 
 
@@ -78,8 +85,8 @@ body{
 }
 
 .sms{
-  margin: 40px 36%;
-    position: absolute;
+  margin: 40px 32%;
+  position: absolute;
 
 }
 .sms a{
