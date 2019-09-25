@@ -40,7 +40,7 @@ body{
 }
 
 .textolink a{
-    text-decoration-color: black;
+    text-decoration:inherit;
 }
 
 
